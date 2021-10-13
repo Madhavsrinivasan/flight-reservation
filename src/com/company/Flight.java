@@ -3,7 +3,7 @@ package com.company;
 public class Flight {
 
 
-    private String namFlight;
+    private String flightName;
     private String airline;
     private int capacity;
     private int noOfSeatsBooked = 0;

@@ -5,8 +5,8 @@ import java.text.ParseException;
 public class Main {
 
     public static void main(String[] args) throws ParseException {
-        Flight flight1 = new Flight("Rocket", "Air India", 250, "15/oct/2021",
-                "17/oct/2021", "15:30:00", "09:00:00");
+        Flight flight1 = new Flight("Rocket", airline:"Indigo", 200 "15/oct/2021",
+                "18/oct/2021", "15:30:00", "09:00:00");
         Flight flight2 = new Flight("Bejing", "Air India", 200, "14/oct/2021",
                 "15/oct/2021", "09:00:00", "20:00:00");
         Passenger passenger1 = new Passenger("Ashfaq", "+91 1023456789", "xyz@gmail.com",
